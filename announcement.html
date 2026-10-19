@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="renderer" content="webkit" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title></title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/content.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div class="notification-page">
+<header class="app-header">
+          <div class="logo-container">
+            <img class="logo" src="assets/img/logo-header.png" alt="ICC" />
+          </div>
+                    <nav class="nav-links desktop-nav">
+            <a href="home.html" class="nav-btn">首页</a>
+            <a href="introduction.html" class="nav-btn">赛事介绍</a>
+            <a href="theme.html" class="nav-btn">竞赛主题</a>
+            <a href="announcement.html" class="nav-btn router-link-exact-active">通知公告</a>
+            <a href="organization.html" class="nav-btn">赛区组织</a>
+            <a href="index.html" class="nav-btn">证书查询</a>
+            <a href="past.html" class="nav-btn">往届查询</a>
+            <a href="download.html" class="nav-btn">模板下载</a>
+            <a href="contact.html" class="nav-btn">联系我们</a>
+          </nav>
+          <div class="auth-buttons desktop-auth">
+            <button class="auth-btn personal-center-btn" type="button" id="personalBtn">
+              <span class="btn-icon">
+                <svg viewBox="0 0 1024 1024" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                  <path fill="currentColor" d="M288 320a224 224 0 1 0 448 0 224 224 0 1 0-448 0m544 608H160a32 32 0 0 1-32-32v-96a160 160 0 0 1 160-160h448a160 160 0 0 1 160 160v96a32 32 0 0 1-32 32z" />
+                </svg>
+              </span>
+              <span>个人中心</span>
+            </button>
+            <button class="auth-btn register-btn" type="button" id="registerBtn"><span>报名参赛</span></button>
+          </div>
+
+          <button class="mobile-menu-btn" type="button" id="mobileMenuBtn" aria-label="打开菜单">
+            <span class="menu-line"></span><span class="menu-line"></span><span class="menu-line"></span>
+          </button>
+          <div class="mobile-menu-overlay" id="mobileOverlay"></div>
+          <nav class="mobile-nav" id="mobileNav">
+            <div class="mobile-nav-header">
+              <img class="mobile-logo" src="assets/img/logo-header.png" alt="ICC" />
+              <button class="close-menu-btn" type="button" id="closeMenuBtn">×</button>
+            </div>
+            <div class="mobile-auth-buttons">
+              <button class="mobile-auth-btn mobile-personal-center-btn" type="button">
+                <span class="mobile-btn-inner">
+                  <span class="btn-icon">
+                    <svg viewBox="0 0 1024 1024" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                      <path fill="currentColor" d="M288 320a224 224 0 1 0 448 0 224 224 0 1 0-448 0m544 608H160a32 32 0 0 1-32-32v-96a160 160 0 0 1 160-160h448a160 160 0 0 1 160 160v96a32 32 0 0 1-32 32z" />
+                    </svg>
+                  </span>
+                  <span>个人中心</span>
+                </span>
+              </button>
+              <button class="mobile-auth-btn mobile-register-btn" type="button" id="mobileRegisterBtn"><span>报名参赛</span></button>
+            </div>
+                        <div class="mobile-nav-links">
+              <a href="home.html" class="mobile-nav-btn"><span>首页</span><span class="nav-arrow">›</span></a>
+              <a href="introduction.html" class="mobile-nav-btn"><span>赛事介绍</span><span class="nav-arrow">›</span></a>
+              <a href="theme.html" class="mobile-nav-btn"><span>竞赛主题</span><span class="nav-arrow">›</span></a>
+              <a href="announcement.html" class="mobile-nav-btn active"><span>通知公告</span><span class="nav-arrow">›</span></a>
+              <a href="organization.html" class="mobile-nav-btn"><span>赛区组织</span><span class="nav-arrow">›</span></a>
+              <a href="index.html" class="mobile-nav-btn"><span>证书查询</span><span class="nav-arrow">›</span></a>
+              <a href="past.html" class="mobile-nav-btn"><span>往届查询</span><span class="nav-arrow">›</span></a>
+              <a href="download.html" class="mobile-nav-btn"><span>模板下载</span><span class="nav-arrow">›</span></a>
+              <a href="contact.html" class="mobile-nav-btn"><span>联系我们</span><span class="nav-arrow">›</span></a>
+            </div>
+          </nav>
+        </header>
+
+        <main class="main-content">
+          <div class="container">
+            <h2 class="page-title">📢 通知公告</h2>
+            <div class="tag-filter">
+          <span class="el-check-tag el-check-tag--primary">信息发布</span>
+          <span class="el-check-tag el-check-tag--primary">资讯</span>
+          <span class="el-check-tag el-check-tag--primary">通知</span>
+            </div>
+            <div class="notification-list" id="notificationList">
+          <div class="notice-item" data-url="https://mp.weixin.qq.com/s/SPbi-vkgp1NWj0rf-5cn1A">
+            <div class="item-tags"><span class="el-tag el-tag--info el-tag--small el-tag--light tag"><span class="el-tag__content">通知</span></span></div>
+            <span class="notice-title">信息发布 | 关于公示2025-2026学年全球发明大会（中国）竞赛活动全国总决赛暨国际赛获奖名单的通知</span>
+            <div class="link-hint"><i class="el-icon" style="font-size: 12px;"><svg viewBox="0 0 1024 1024"><path fill="currentColor" d="M715.648 625.152 670.4 579.904l90.496-90.56c75.008-74.944 85.12-186.368 22.656-248.896-62.528-62.464-173.952-52.352-248.96 22.656L444.16 353.6l-45.248-45.248 90.496-90.496c100.032-99.968 251.968-110.08 339.456-22.656 87.488 87.488 77.312 239.424-22.656 339.456l-90.496 90.496zm-90.496 90.496-90.496 90.496C434.624 906.112 282.688 916.224 195.2 828.8c-87.488-87.488-77.312-239.424 22.656-339.456l90.496-90.496 45.248 45.248-90.496 90.56c-75.008 74.944-85.12 186.368-22.656 248.896 62.528 62.464 173.952 52.352 248.96-22.656l90.496-90.496 45.248 45.248zm0-362.048 45.248 45.248L398.848 670.4 353.6 625.152 625.152 353.6z"></path></svg></i><span>https://mp.weixin.qq.com/s/SPbi-vkgp1NWj0rf-5cn1A</span></div>
+          </div>
+          <div class="notice-item" data-url="https://mp.weixin.qq.com/s/FzuFIFz4j5DvIn9jlntk2A">
+            <div class="item-tags"><span class="el-tag el-tag--info el-tag--small el-tag--light tag"><span class="el-tag__content">通知</span></span></div>
+            <span class="notice-title">2025-2026学年全球发明大会（中国）竞赛活动全国总决赛暨国际赛成功闭幕</span>
+            <div class="link-hint"><i class="el-icon" style="font-size: 12px;"><svg viewBox="0 0 1024 1024"><path fill="currentColor" d="M715.648 625.152 670.4 579.904l90.496-90.56c75.008-74.944 85.12-186.368 22.656-248.896-62.528-62.464-173.952-52.352-248.96 22.656L444.16 353.6l-45.248-45.248 90.496-90.496c100.032-99.968 251.968-110.08 339.456-22.656 87.488 87.488 77.312 239.424-22.656 339.456l-90.496 90.496zm-90.496 90.496-90.496 90.496C434.624 906.112 282.688 916.224 195.2 828.8c-87.488-87.488-77.312-239.424 22.656-339.456l90.496-90.496 45.248 45.248-90.496 90.56c-75.008 74.944-85.12 186.368-22.656 248.896 62.528 62.464 173.952 52.352 248.96-22.656l90.496-90.496 45.248 45.248zm0-362.048 45.248 45.248L398.848 670.4 353.6 625.152 625.152 353.6z"></path></svg></i><span>https://mp.weixin.qq.com/s/FzuFIFz4j5DvIn9jlntk2A</span></div>
+          </div>
+          <div class="notice-item" data-url="https://mp.weixin.qq.com/s/SCtpXf_kOf9pkBm0SvveKw">
+            <div class="item-tags"><span class="el-tag el-tag--info el-tag--small el-tag--light tag"><span class="el-tag__content">通知</span></span></div>
+            <span class="notice-title">2025—2026学年全球发明大会（中国）竞赛活动全国总决赛暨国际赛在郑闭幕</span>
+            <div class="link-hint"><i class="el-icon" style="font-size: 12px;"><svg viewBox="0 0 1024 1024"><path fill="currentColor" d="M715.648 625.152 670.4 579.904l90.496-90.56c75.008-74.944 85.12-186.368 22.656-248.896-62.528-62.464-173.952-52.352-248.96 22.656L444.16 353.6l-45.248-45.248 90.496-90.496c100.032-99.968 251.968-110.08 339.456-22.656 87.488 87.488 77.312 239.424-22.656 339.456l-90.496 90.496zm-90.496 90.496-90.496 90.496C434.624 906.112 282.688 916.224 195.2 828.8c-87.488-87.488-77.312-239.424 22.656-339.456l90.496-90.496 45.248 45.248-90.496 90.56c-75.008 74.944-85.12 186.368-22.656 248.896 62.528 62.464 173.952 52.352 248.96-22.656l90.496-90.496 45.248 45.248zm0-362.048 45.248 45.248L398.848 670.4 353.6 625.152 625.152 353.6z"></path></svg></i><span>https://mp.weixin.qq.com/s/SCtpXf_kOf9pkBm0SvveKw</span></div>
+          </div>
+          <div class="notice-item" data-url="https://mp.weixin.qq.com/s/95IxsQrNfOSGYoqjWPQHNg">
+            <div class="item-tags"><span class="el-tag el-tag--info el-tag--small el-tag--light tag"><span class="el-tag__content">通知</span></span></div>
+            <span class="notice-title">2025-2026学年全球发明大会（中国）竞赛活动全国总决赛暨国际赛在郑州开幕</span>
+            <div class="link-hint"><i class="el-icon" style="font-size: 12px;"><svg viewBox="0 0 1024 1024"><path fill="currentColor" d="M715.648 625.152 670.4 579.904l90.496-90.56c75.008-74.944 85.12-186.368 22.656-248.896-62.528-62.464-173.952-52.352-248.96 22.656L444.16 353.6l-45.248-45.248 90.496-90.496c100.032-99.968 251.968-110.08 339.456-22.656 87.488 87.488 77.312 239.424-22.656 339.456l-90.496 90.496zm-90.496 90.496-90.496 90.496C434.624 906.112 282.688 916.224 195.2 828.8c-87.488-87.488-77.312-239.424 22.656-339.456l90.496-90.496 45.248 45.248-90.496 90.56c-75.008 74.944-85.12 186.368-22.656 248.896 62.528 62.464 173.952 52.352 248.96-22.656l90.496-90.496 45.248 45.248zm0-362.048 45.248 45.248L398.848 670.4 353.6 625.152 625.152 353.6z"></path></svg></i><span>https://mp.weixin.qq.com/s/95IxsQrNfOSGYoqjWPQHNg</span></div>
+          </div>
+          <div class="notice-item" data-url="https://mp.weixin.qq.com/s/z1dwR_ATjSXgvMV0Xa4e6g">
+            <div class="item-tags"><span class="el-tag el-tag--info el-tag--small el-tag--light tag"><span class="el-tag__content">通知</span></span></div>
+            <span class="notice-title">全球发明大会（中国）竞赛活动港澳赛区赛事完美落幕 感谢所有的支持与付出</span>
+            <div class="link-hint"><i class="el-icon" style="font-size: 12px;"><svg viewBox="0 0 1024 1024"><path fill="currentColor" d="M715.648 625.152 670.4 579.904l90.496-90.56c75.008-74.944 85.12-186.368 22.656-248.896-62.528-62.464-173.952-52.352-248.96 22.656L444.16 353.6l-45.248-45.248 90.496-90.496c100.032-99.968 251.968-110.08 339.456-22.656 87.488 87.488 77.312 239.424-22.656 339.456l-90.496 90.496zm-90.496 90.496-90.496 90.496C434.624 906.112 282.688 916.224 195.2 828.8c-87.488-87.488-77.312-239.424 22.656-339.456l90.496-90.496 45.248 45.248-90.496 90.56c-75.008 74.944-85.12 186.368-22.656 248.896 62.528 62.464 173.952 52.352 248.96-22.656l90.496-90.496 45.248 45.248zm0-362.048 45.248 45.248L398.848 670.4 353.6 625.152 625.152 353.6z"></path></svg></i><span>https://mp.weixin.qq.com/s/z1dwR_ATjSXgvMV0Xa4e6g</span></div>
+          </div>
+          <div class="notice-item" data-url="https://mp.weixin.qq.com/s/6PqVfy4RqrYUt3OOawfZ7g">
+            <div class="item-tags"><span class="el-tag el-tag--info el-tag--small el-tag--light tag"><span class="el-tag__content">通知</span></span></div>
+            <span class="notice-title">全球发明大会（中国）竞赛活动智能制造-未来智造家主题赛完美落幕，感谢所有的支持与付出</span>
+            <div class="link-hint"><i class="el-icon" style="font-size: 12px;"><svg viewBox="0 0 1024 1024"><path fill="currentColor" d="M715.648 625.152 670.4 579.904l90.496-90.56c75.008-74.944 85.12-186.368 22.656-248.896-62.528-62.464-173.952-52.352-248.96 22.656L444.16 353.6l-45.248-45.248 90.496-90.496c100.032-99.968 251.968-110.08 339.456-22.656 87.488 87.488 77.312 239.424-22.656 339.456l-90.496 90.496zm-90.496 90.496-90.496 90.496C434.624 906.112 282.688 916.224 195.2 828.8c-87.488-87.488-77.312-239.424 22.656-339.456l90.496-90.496 45.248 45.248-90.496 90.56c-75.008 74.944-85.12 186.368-22.656 248.896 62.528 62.464 173.952 52.352 248.96-22.656l90.496-90.496 45.248 45.248zm0-362.048 45.248 45.248L398.848 670.4 353.6 625.152 625.152 353.6z"></path></svg></i><span>https://mp.weixin.qq.com/s/6PqVfy4RqrYUt3OOawfZ7g</span></div>
+          </div>
+          <div class="notice-item" data-url="https://mp.weixin.qq.com/s/agN5M1tkWUNgUsVXxpUMeQ">
+            <div class="item-tags"><span class="el-tag el-tag--info el-tag--small el-tag--light tag"><span class="el-tag__content">通知</span></span></div>
+            <span class="notice-title">关于2025-2026学年全球发明大会（中国）竞赛活动全国总决赛暨国际赛赛事安排细则</span>
+            <div class="link-hint"><i class="el-icon" style="font-size: 12px;"><svg viewBox="0 0 1024 1024"><path fill="currentColor" d="M715.648 625.152 670.4 579.904l90.496-90.56c75.008-74.944 85.12-186.368 22.656-248.896-62.528-62.464-173.952-52.352-248.96 22.656L444.16 353.6l-45.248-45.248 90.496-90.496c100.032-99.968 251.968-110.08 339.456-22.656 87.488 87.488 77.312 239.424-22.656 339.456l-90.496 90.496zm-90.496 90.496-90.496 90.496C434.624 906.112 282.688 916.224 195.2 828.8c-87.488-87.488-77.312-239.424 22.656-339.456l90.496-90.496 45.248 45.248-90.496 90.56c-75.008 74.944-85.12 186.368-22.656 248.896 62.528 62.464 173.952 52.352 248.96-22.656l90.496-90.496 45.248 45.248zm0-362.048 45.248 45.248L398.848 670.4 353.6 625.152 625.152 353.6z"></path></svg></i><span>https://mp.weixin.qq.com/s/agN5M1tkWUNgUsVXxpUMeQ</span></div>
+          </div>
+          <div class="notice-item" data-url="https://mp.weixin.qq.com/s/SoZ9fB0sajw4UG9Fo9yscg">
+            <div class="item-tags"><span class="el-tag el-tag--info el-tag--small el-tag--light tag"><span class="el-tag__content">通知</span></span></div>
+            <span class="notice-title">关于举办2025-2026学年全球发明大会（中国）竞赛活动全国总决赛暨国际赛的通知</span>
+            <div class="link-hint"><i class="el-icon" style="font-size: 12px;"><svg viewBox="0 0 1024 1024"><path fill="currentColor" d="M715.648 625.152 670.4 579.904l90.496-90.56c75.008-74.944 85.12-186.368 22.656-248.896-62.528-62.464-173.952-52.352-248.96 22.656L444.16 353.6l-45.248-45.248 90.496-90.496c100.032-99.968 251.968-110.08 339.456-22.656 87.488 87.488 77.312 239.424-22.656 339.456l-90.496 90.496zm-90.496 90.496-90.496 90.496C434.624 906.112 282.688 916.224 195.2 828.8c-87.488-87.488-77.312-239.424 22.656-339.456l90.496-90.496 45.248 45.248-90.496 90.56c-75.008 74.944-85.12 186.368-22.656 248.896 62.528 62.464 173.952 52.352 248.96-22.656l90.496-90.496 45.248 45.248zm0-362.048 45.248 45.248L398.848 670.4 353.6 625.152 625.152 353.6z"></path></svg></i><span>https://mp.weixin.qq.com/s/SoZ9fB0sajw4UG9Fo9yscg</span></div>
+          </div>
+          <div class="notice-item" data-url="https://mp.weixin.qq.com/s/pDgcatN_e_b0ggBP7dWaHg">
+            <div class="item-tags"><span class="el-tag el-tag--info el-tag--small el-tag--light tag"><span class="el-tag__content">通知</span></span></div>
+            <span class="notice-title">关于公示2025-2026学年全球发明大会（中国）港澳赛区竞赛活动获奖结果的通知</span>
+            <div class="link-hint"><i class="el-icon" style="font-size: 12px;"><svg viewBox="0 0 1024 1024"><path fill="currentColor" d="M715.648 625.152 670.4 579.904l90.496-90.56c75.008-74.944 85.12-186.368 22.656-248.896-62.528-62.464-173.952-52.352-248.96 22.656L444.16 353.6l-45.248-45.248 90.496-90.496c100.032-99.968 251.968-110.08 339.456-22.656 87.488 87.488 77.312 239.424-22.656 339.456l-90.496 90.496zm-90.496 90.496-90.496 90.496C434.624 906.112 282.688 916.224 195.2 828.8c-87.488-87.488-77.312-239.424 22.656-339.456l90.496-90.496 45.248 45.248-90.496 90.56c-75.008 74.944-85.12 186.368-22.656 248.896 62.528 62.464 173.952 52.352 248.96-22.656l90.496-90.496 45.248 45.248zm0-362.048 45.248 45.248L398.848 670.4 353.6 625.152 625.152 353.6z"></path></svg></i><span>https://mp.weixin.qq.com/s/pDgcatN_e_b0ggBP7dWaHg</span></div>
+          </div>
+          <div class="notice-item" data-url="https://mp.weixin.qq.com/s/gDYffM7c-8LWPqeKlrJKFQ">
+            <div class="item-tags"><span class="el-tag el-tag--info el-tag--small el-tag--light tag"><span class="el-tag__content">通知</span></span></div>
+            <span class="notice-title">关于公示2025-2026学年全球发明大会（中国）上海赛区竞赛活动获奖结果的通知</span>
+            <div class="link-hint"><i class="el-icon" style="font-size: 12px;"><svg viewBox="0 0 1024 1024"><path fill="currentColor" d="M715.648 625.152 670.4 579.904l90.496-90.56c75.008-74.944 85.12-186.368 22.656-248.896-62.528-62.464-173.952-52.352-248.96 22.656L444.16 353.6l-45.248-45.248 90.496-90.496c100.032-99.968 251.968-110.08 339.456-22.656 87.488 87.488 77.312 239.424-22.656 339.456l-90.496 90.496zm-90.496 90.496-90.496 90.496C434.624 906.112 282.688 916.224 195.2 828.8c-87.488-87.488-77.312-239.424 22.656-339.456l90.496-90.496 45.248 45.248-90.496 90.56c-75.008 74.944-85.12 186.368-22.656 248.896 62.528 62.464 173.952 52.352 248.96-22.656l90.496-90.496 45.248 45.248zm0-362.048 45.248 45.248L398.848 670.4 353.6 625.152 625.152 353.6z"></path></svg></i><span>https://mp.weixin.qq.com/s/gDYffM7c-8LWPqeKlrJKFQ</span></div>
+          </div>
+            </div>
+        <div class="pagination-container">
+          <div class="el-pagination is-background">
+            <span class="el-pagination__total">共 108 条</span>
+            <span class="el-pagination__sizes"><span class="size-box"><span>10条/页</span><i class="el-icon"><svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M831.872 340.864 512 652.672 192.128 340.864a30.592 30.592 0 0 0-42.752 0 29.12 29.12 0 0 0 0 41.6L489.664 714.24a32 32 0 0 0 44.672 0l340.288-331.712a29.12 29.12 0 0 0 0-41.728 30.592 30.592 0 0 0-42.752 0z"/></svg></i></span></span>
+            <button type="button" class="btn-prev" aria-label="上一页" disabled><svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M609.408 149.376 277.76 489.6a32 32 0 0 0 0 44.672l331.648 340.352a29.12 29.12 0 0 0 41.728 0 30.592 30.592 0 0 0 0-42.752L339.264 511.936l311.872-319.872a30.592 30.592 0 0 0 0-42.688 29.12 29.12 0 0 0-41.728 0z"/></svg></button>
+            <ul class="el-pager">
+          <li class="is-active number" data-page="1">1</li>
+          <li class="number" data-page="2">2</li>
+          <li class="number" data-page="3">3</li>
+          <li class="number" data-page="4">4</li>
+          <li class="number" data-page="5">5</li>
+          <li class="number" data-page="6">6</li>
+          <li class="more btn-quicknext el-icon" aria-label="向后 5 页"><svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M176 416a112 112 0 1 1 0 224 112 112 0 0 1 0-224m336 0a112 112 0 1 1 0 224 112 112 0 0 1 0-224m336 0a112 112 0 1 1 0 224 112 112 0 0 1 0-224"/></svg></li>
+          <li class="number" data-page="11">11</li>
+            </ul>
+            <button type="button" class="btn-next" aria-label="下一页"><svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M340.864 149.312a30.592 30.592 0 0 0 0 42.752L652.736 512 340.864 831.872a30.592 30.592 0 0 0 0 42.752 29.12 29.12 0 0 0 41.728 0L714.24 534.336a32 32 0 0 0 0-44.672L382.592 149.376a29.12 29.12 0 0 0-41.728 0z"/></svg></button>
+            <span class="el-pagination__jump"><span class="el-pagination__goto">前往</span><input class="jump-input" type="number" min="1" max="11" value="1" aria-label="页"><span>页</span></span>
+          </div>
+        </div>
+          </div>
+        </main>
+
+<footer class="app-footer">
+          <img class="foot-logo" src="assets/img/logo-footer-left.png" alt="Logo Left" />
+          <img class="foot-logo" src="assets/img/logo-footer-right.png" alt="Logo Right" />
+          <div class="record"><span class="demo-notice">非官方学习演示站点 · 与全球发明大会及主办方无关</span></div>
+        </footer>
+      </div>
+
+    <!-- 报名参赛：选择参赛方式 -->
+    <div class="competition-modal-overlay" id="competitionModal" hidden>
+      <div class="competition-modal-container" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <button class="modal-close-btn" type="button" id="modalCloseBtn" aria-label="关闭">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15 5L5 15M5 5L15 15" stroke="#666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </button>
+        <div class="modal-header">
+          <div class="modal-icon">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="24" fill="#0E357F" fill-opacity="0.1" />
+              <path d="M32 19L24 27L16 19" stroke="#0E357F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </div>
+          <h2 class="modal-title" id="modalTitle">选择参赛方式</h2>
+          <p class="modal-subtitle">请选择您要参加的赛事类型</p>
+        </div>
+        <div class="modal-content">
+          <div class="competition-options">
+            <div class="competition-card" data-value="provincial">
+              <div class="card-icon-wrapper">
+                <div class="card-icon provincial-bg">
+                  <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16 2C8.268 2 2 8.268 2 16C2 23.732 8.268 30 16 30C23.732 30 30 23.732 30 16C30 8.268 23.732 2 16 2Z" fill="white" />
+                    <path d="M16 6C10.477 6 6 10.477 6 16C6 21.523 10.477 26 16 26C21.523 26 26 21.523 26 16C26 10.477 21.523 6 16 6Z" fill="#0E357F" />
+                    <path d="M16 12C13.791 12 12 13.791 12 16C12 18.209 13.791 20 16 20C18.209 20 20 18.209 20 16C20 13.791 18.209 12 16 12Z" fill="white" />
+                  </svg>
+                </div>
+              </div>
+              <div class="card-content"><h3 class="card-title">省赛</h3></div>
+              <div class="card-checkmark" hidden>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="12" cy="12" r="12" fill="#0E357F" />
+                  <path d="M7 12L10 15L17 8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </div>
+            </div>
+            <div class="competition-card" data-value="theme">
+              <div class="card-icon-wrapper">
+                <div class="card-icon theme-bg">
+                  <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16 4L20 12L28 13.5L22 20L23 28L16 24L9 28L10 20L4 13.5L12 12L16 4Z" fill="white" />
+                  </svg>
+                </div>
+              </div>
+              <div class="card-content"><h3 class="card-title">主题赛</h3></div>
+              <div class="card-checkmark" hidden>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="12" cy="12" r="12" fill="#0E357F" />
+                  <path d="M7 12L10 15L17 8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="selection-tip" id="selectionTip" hidden>
+            <div class="tip-icon">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="10" cy="10" r="10" fill="#0E357F" fill-opacity="0.1" />
+                <path d="M10 5V10M10 15H10.01" stroke="#0E357F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <span class="tip-text">您选择了<span class="tip-highlight" id="tipValue">省赛</span>，点击确定继续</span>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="modal-btn modal-btn-secondary" type="button" id="modalCancelBtn">取消</button>
+          <button class="modal-btn modal-btn-primary disabled" type="button" id="modalConfirmBtn" disabled>确定</button>
+        </div>
+      </div>
+    </div>
+
+    
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/pages.js"></script>
+  </body>
+</html>
