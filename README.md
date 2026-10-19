@@ -90,7 +90,7 @@ site_clone/
 
 本目录同时按公网演示版本准备：
 
-- 页脚已移除备案号与公安图标，改为「非官方学习演示站点 · 与全球发明大会及主办方无关」
+- 页脚仅保留左右两个 Logo，无备案号、公安图标或其他文字说明
 - 所有页面加入 `<meta name="robots" content="noindex, nofollow">`，根目录 `robots.txt` 禁止搜索引擎收录
 - 站点为纯静态，可直接部署到 Cloudflare Pages / Vercel / Netlify 或任意静态服务器
 
