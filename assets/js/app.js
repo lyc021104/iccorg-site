@@ -302,7 +302,7 @@
   function getDemoCert() {
     if (getValue("awardYear") !== "2025-2026") return null;
     if (getValue("participantName") !== "王雨佳岳") return null;
-    if (getValue("idNumber") !== "123456") return null;
+    if (getValue("idNumber") !== "510122201502250398") return null;
     var type = getValue("awardType");
     if (type === "全国总决赛获奖证书") return DEMO_CERTS.national;
     if (type === "省赛获奖证书") return DEMO_CERTS.provincial;
@@ -486,7 +486,7 @@
   var personalBtn = document.getElementById("personalBtn");
   if (personalBtn) {
     personalBtn.addEventListener("click", function () {
-      showMessage("info", "演示页面：个人中心未接入");
+      /* 点击个人中心不显示任何内容 */
     });
   }
 
@@ -526,7 +526,6 @@
     if (mobilePersonal) {
       mobilePersonal.addEventListener("click", function () {
         closeMobileMenu();
-        showMessage("info", "演示页面：个人中心未接入");
       });
     }
   }
